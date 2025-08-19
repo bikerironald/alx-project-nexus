@@ -1,8 +1,50 @@
-# React + Vite
+🎬 Movie Recommendation App – ProDev FE
+📖 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Movie Recommendation App built with React (Vite), TypeScript, and Appwrite. The app lets users browse trending movies, view details, and save favorites. It reflects a real-world development scenario with API integration, user data management, and responsive UI design.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+🚀 Project Goals
+
+API Integration: Fetch and display trending/recommended movies.
+
+User Personalization: Save favorite movies using Appwrite or local storage.
+
+Interactive Dashboard: Responsive, engaging UI for browsing and recommendations.
+
+🛠️ Tech Stack
+
+React (Vite) – Fast frontend framework
+
+TypeScript – Type safety & scalability
+
+Appwrite – Backend services (auth & database)
+
+Styled Components / Tailwind CSS – Styling UI
+
+✨ Features
+
+Trending & Recommended Movies
+
+Fetch from a public movie API
+
+Proper loading & error handling
+
+Movie Details Page
+
+Dynamic routes for each movie
+
+Display poster, rating, overview
+
+Favorites Management
+
+Save movies to Appwrite DB (or fallback to local storage)
+
+Dedicated “Favorites” section
+
+Responsive UI
+
+Works on desktop, tablet, and mobile
+
+Smooth interactions & animations
